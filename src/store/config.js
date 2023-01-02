@@ -43,8 +43,8 @@ store.rates = [
             { id: 2, alias: 'Niños', rate: 1250 }
         ],
         extras: [
-            { id: 1, alias: 'Auto', rate: 0 },
-            { id: 2, alias: 'Camper', rate: 0 },
+            { id: 1, alias: 'Auto', rate: 1000 },
+            { id: 2, alias: 'Camper', rate: 1500 },
         ],
         location: [
             { id: 0, alias: 'Carpas', rate: 0 },
