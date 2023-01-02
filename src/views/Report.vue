@@ -17,7 +17,7 @@
                 <div class="td w-16">Pax</div>
                 <div class="td w-32">Deuda (días)</div>
                 <div class="td w-32">Deuda (monto)</div>
-                <div class="td w-32">Ubicación</div>
+                <div class="td w-fit">Ubicación</div>
             </div>
             <div class="grow overflow-y-auto">
                 <div v-for="(pax, index) in debtors" :key="pax._id" class="tr border-b border-slate-500">
@@ -28,7 +28,7 @@
                     <div class="td w-16">{{ count(pax) }}</div>
                     <div class="td w-32">{{ debt(pax).inDays }}</div>
                     <div class="td w-32">${{ debt(pax).inAmount }}</div>
-                    <div class="td w-32">{{ locs(pax) }}</div>
+                    <div class="td w-fit">{{ locs(pax) }}</div>
                 </div>
             </div>
         </div>
