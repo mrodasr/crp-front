@@ -26,7 +26,7 @@ const pax = {
 const pay = {
     service: 1,
     method: 1,
-    amount: 0,
+    amount: null,
     notes: '',
     pax: null,
     created: null,
